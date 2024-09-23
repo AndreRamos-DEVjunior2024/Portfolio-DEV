@@ -1,0 +1,18 @@
+.text-lg{
+    font: var(--title-lg);
+}
+
+.text-sm{
+    font: var(--text-sm);
+}
+
+.gray-400{
+    color: var(--gray-400);
+}
+.gray-600{
+    color: var(--gray-600);
+}
+
+.red {
+    color: var(--red);
+}

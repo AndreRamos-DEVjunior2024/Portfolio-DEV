@@ -1,0 +1,49 @@
+#intro {
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/image/Background_Intro.jpg);
+    background-size: cover;
+    width: 1366px;
+    height: 750px;
+}
+
+#info {
+    width: 1040px;
+    height: 447px;
+    margin-block:120px 183px ;
+}
+header{
+    justify-items: center;
+    
+    #avatar{
+        position: relative;
+        margin-top:12.36px ;
+        border: 2px solid var(--red);
+        border-radius: 999px;
+    }
+    
+    #vetor{
+        position: relative;
+        bottom: 25px;
+        left:30px;
+    }
+
+    #text{
+        text-align: center;
+        margin-top: 56px;
+
+        p{
+            width: 66%;
+            text-align: center;
+            display: inline-block;
+            padding-top: 15px;
+        }
+
+    }
+
+    span{
+        color:var(--gray-500);
+        font:var(--subtitle);
+    }
+    
+}
