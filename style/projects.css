@@ -1,0 +1,37 @@
+#projects {
+    width: 1366px;
+    height: 917px;
+    background-color: #17181d;
+}
+
+#header{
+    text-align: center;
+    margin-top: 72px;
+
+    h2{
+        font: var(--title-md);
+    }
+}
+#grid-project{
+    width: 1040px;
+    height: 584px;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .projectcard{
+
+        width: 330px;
+        height: 280px;
+        background-color: var(--gray-300);
+        border-radius: 12px;
+        padding-top: 12px;
+        padding-inline: 12px;
+
+        img{
+            width: 306px;
+            height: 156px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+    }    
+}
