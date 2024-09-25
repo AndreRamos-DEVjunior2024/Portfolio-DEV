@@ -1,5 +1,5 @@
 #projects {
-    width: 100%;
+    width: 1366px;
     height: 917px;
     background-color: #17181d;
 
@@ -13,7 +13,11 @@
     flex-direction: column;
     text-align: center;
     margin-top: 72px;
-    margin-bottom: 50px;
+    margin-bottom: 56px;
+
+    span{
+        margin-bottom: 8px;
+    }
 
     h2{
         font: var(--title-md);
@@ -28,7 +32,7 @@
 
     .projectcard{
 
-        width: 330px;
+        width: auto;
         height: 280px;
         background-color: var(--gray-300);
         border-radius: 12px;

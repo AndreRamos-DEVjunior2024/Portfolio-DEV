@@ -29,6 +29,14 @@
     --text-md:400 16px/140% var(--font-family-maven-pro);
     --text-sm:400 14px/140% var(--font-family-maven-pro);
 
+} body{
+    justify-content: center;
+    background-color: #17181d;
+
+}
+
+.border{
+    border-inline:1px solid var(--gray-300);
 }
 
 .grid {
