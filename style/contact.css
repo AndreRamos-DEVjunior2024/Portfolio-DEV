@@ -25,9 +25,8 @@
         border-radius: 8px;
         background-color: var(--gray-300);
         padding-inline: 20px;
-
+        text-decoration: none;
         
-
         .flex{           
             display: flex;
             align-items: center;
@@ -39,6 +38,10 @@
 
         .secondary{
                 justify-self: end;
+        }
+
+        span:nth-child(2){
+            margin-top: 5px;
         }
 
     }
